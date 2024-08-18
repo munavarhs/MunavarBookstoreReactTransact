@@ -1,0 +1,71 @@
+
+.BookBuffetFooter{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.FooterDiv{
+    display: flex;
+    flex-direction: row;
+}
+.footerText1{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding-left: 40px;
+    padding-top: 10px;
+    margin-bottom:0;
+}
+.footerText2{
+    color: #ECA00D;
+    padding-left: 8px;
+    margin-top: 35px;
+}
+.Directions{
+    color: #ECA00D;
+    padding-left: 180px;
+    margin-top:-15px;
+    cursor: pointer;
+}
+.Copyright_div{
+    display: flex;
+    flex-direction: row;
+    margin-left: 590px;
+    margin-top: -55px;
+    cursor: pointer;
+}
+.smImages{
+    height: 50px;
+    width: 80px;
+    margin-top: 20px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.cc{
+    color: white;;
+}
+.copyImage{
+    height: 18px;
+    width: 18px;
+    padding-left: 4px;
+    padding-right: 2px;
+    margin-top: 30px;
+}
+.ftbb{
+    padding-left: 2px;
+    color: white;
+}
+.ftbuffet{
+    padding-left: 2px;
+    color: #ECA00D;
+}
+.year{
+    padding-left: 2px;
+    color: white;
+}
+
+

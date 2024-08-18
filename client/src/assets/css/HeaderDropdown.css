@@ -1,0 +1,94 @@
+.header-dropdown {
+    position: relative;
+}
+
+.categories-button {
+    background-color: black;
+    color: white; /* Adjust the color of the icons */
+    border: none; /* Remove button border */
+    cursor: pointer;
+    font-size: 24px; /* Adjust the size of icons */
+}
+
+/* Initially, display the hamburger icon and hide the cross icon */
+.hamburger-icon {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.cross-icon {
+    display: none;
+    margin-right: 20px;
+}
+
+/* When hovering over the button, show the cross icon and hide the hamburger icon */
+.categories-button:hover .hamburger-icon {
+    display: none;
+}
+
+.categories-button:hover .cross-icon {
+    display: inline-block;
+}
+
+.header-dropdown ul  {
+    width: 150px;
+    background-color: #ECA00D;
+    color: black;
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border-color: black;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 2px;
+    position: absolute;
+    min-width: 6em;
+    z-index: 10;
+    /* Adjust based on your layout */ /* Adjust based on your layout */
+    top: 90%;
+    right: 20%/* Adjust dropdown to appear right below the button */
+}
+
+.header-dropdown ul:hover  {
+    width: 150px;
+    background-color: #ECA00D;
+    color: black;
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border-color: black;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 2px;
+    position: absolute;
+    min-width: 6em;
+    z-index: 10;
+    /* Adjust based on your layout */ /* Adjust based on your layout */
+    top: 90%;
+    right: 20%/* Adjust dropdown to appear right below the button */
+}
+
+.header-dropdown a {
+    padding: 0.25em 0.25em;
+}
+
+.header-dropdown a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-dropdown a:hover {
+    background: white;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 1px;
+}
+
+/* Display the dropdown on hover */
+.header-dropdown:hover ul {
+    display: block;
+}

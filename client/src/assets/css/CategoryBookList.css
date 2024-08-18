@@ -1,0 +1,10 @@
+
+.book-lists {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0em;
+    gap: 1em;
+    margin-left: 30px;
+    margin-top: 60px;
+}

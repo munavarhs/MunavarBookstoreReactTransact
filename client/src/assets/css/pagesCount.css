@@ -1,0 +1,27 @@
+
+.total-pages{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pages{
+    width: 120px;
+    height: 40px;
+    border-color: black;
+    background-color: #ECA00D;
+    border-radius: 10px;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 2px;
+    padding: 5px;
+    margin-left: 500px;
+    margin-top: 30px;
+    margin-bottom: -15px;
+}
+
+.pages-text{
+    margin-top: 0px;
+    margin-left: 5px;
+    font-size: large;
+    padding: 5px;
+}

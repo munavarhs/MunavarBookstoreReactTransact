@@ -1,0 +1,134 @@
+
+
+
+/*
+  Giving various sections of your page this utility class
+  will ensure a nice padding around the contents.
+*/
+.container {
+    padding: 2rem;
+}
+
+body {
+    margin: 0;
+}
+.BookBuffet-hompepage{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+.BestSellersTextDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+
+.BestSellers-Text{
+    color: black;
+    margin-top: 80px;
+    margin-left: 500px;
+}
+.BestSellers-Text1{
+    color: black;
+    margin-left: 500px;
+}
+
+.bestseller-image-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-left: 20px;
+    border-color: black;
+    margin-bottom: 65px;
+    margin-top: 40px;
+}
+
+button a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+button a:hover{
+    color: black;
+}
+
+.bestseller-image-items a {
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.bestseller-image-container{
+    display:flex;
+    flex-direction: row;
+}
+.shopnow-button {
+
+    --shopnow-button-color: black;
+    --shopnow-button-background: #ECA00D;
+    --shopnow-button-background-hover: black ;
+
+    display: inline-flex;
+    align-items: center;
+    margin-left: 190px;
+    width: 160px;
+    height: 50px;
+    background: var(--shopnow-button-background);
+    border-color: var(--shopnow-button-color);
+    color: var(--shopnow-button-color);
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 1px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Lexend', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+}
+
+.shopnow-button:hover, .shopnow-button:active{
+    background: white;
+    transform: scale(1.2);
+}
+
+
+
+.image-1{
+    margin-right: -10px;
+    margin-top: 20px;
+}
+.image-3{
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+
+
+
+#wrapper2 {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    z-index: -1;
+    position: absolute;
+}
+#bg-img {
+    display: flex;
+    height: 40%;
+    position: absolute;
+    z-index: -1;
+    top: 36%;
+    max-height: 50%;
+    transform: scale(1,4.3);
+    width: 100%;
+    opacity: 50%;
+}
+

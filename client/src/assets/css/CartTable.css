@@ -1,0 +1,303 @@
+.cart-heading{
+    margin-top: 1em;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cart-text{
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cart-table {
+    grid-row-gap: 1em;
+    background: #fff;
+    border: thin solid #000;
+    color: #000;
+    display: grid;
+    grid-template-columns: max-content minmax(5em, 10em) repeat(3, max-content);
+    margin: 0 auto;
+    width: fit-content;
+}
+
+ul {
+    display: contents;
+}
+
+ul>li {
+    display: contents;
+}
+
+.table-heading {
+    background-color: black;
+    color: white;
+}
+
+.table-heading>* {
+    background-color: black;
+    padding: 0.5em;
+}
+
+.heading-book {
+    grid-column: 1 / 3;
+    text-align: center;
+    font-weight: bold;
+}
+
+.heading-price {
+    grid-column: 3 / 4;
+    text-align: center;
+    font-weight: bold;
+}
+
+.heading-quantity {
+    grid-column: 4 / 5;
+    text-align: center;
+    font-weight: bold;
+}
+
+.heading-subtotal {
+    text-align: center;
+    grid-column: 5 / -1;
+    font-weight: bold;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+}
+
+.wide-rect {
+    width: 125px;
+    height: 100px;
+}
+
+.cart-book-price {
+    text-align: right;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.cart-book-quantity {
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.cart-book-subtotal {
+    text-align: right;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.line-sep {
+    display: block;
+    height: 1px;
+    background-color: black;
+    grid-column: 1 / -1;
+}
+
+.icon-button {
+    border: none;
+    cursor: pointer;
+}
+
+.inc-button {
+    font-size: 1.125rem;
+    color: #ECA00D;
+    margin-right: 0.25em;
+    background-color: white;
+    border: none;
+}
+
+.inc-button:hover {
+    color: black;
+    background-color: white;
+}
+
+.dec-button {
+    font-size: 1.125rem;
+    color: grey;
+    background-color: white;
+    border: none;
+}
+
+.dec-button:hover {
+    color: silver;
+    background-color: white;
+}
+
+
+input[type="number"] {
+    width: 4em;
+}
+
+select {
+    background-color: #ECA00D;
+    color: black;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.cart-book-image {
+    padding-left: 1em;
+    padding-right: 1em;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+
+}
+
+.center-order {
+    align-items: center;
+}
+
+.pill-button {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 1em;
+    padding-left: 1em;
+    border-radius: 200px;
+    background-color: white;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+}
+
+.center-text{
+    text-align: center;
+}
+
+.ctaButtons {
+    display: flex;
+    gap: 28em;
+    justify-content: center;
+    text-align: center;
+}
+
+.white-border-blue-bg {
+    border-style: solid;
+    border-width: thin;
+
+    border-color: #ECA00D;
+    background: white;
+    color: white;
+}
+
+.white-border-gray-bg {
+    border-style: solid;
+    border-width: thin;
+
+    border-color: #4e4e4e;
+    background: grey;
+    color: white;
+}
+
+.white-border-gray-bg:hover,
+.white-border-gray-bg:active {
+    background: silver;
+    color: black;
+}
+
+.white-border-silver-bg {
+    font-size: 0.8rem;
+    border-style: solid;
+    border-width: thin;
+
+    border-color: #4e4e4e;
+    background: grey;
+    color: white;
+}
+
+.white-border-silver-bg:hover,
+.white-border-silver-bg:active {
+    background: silver;
+    color: black;
+}
+
+.trash {
+    width: max-content;
+    margin: auto;
+}
+
+
+.button.pill-button.blue-border-white-bg a {
+    text-decoration: none; /* Optional: if you want to remove the underline from the link */
+}
+
+.button.pill-button.blue-border-white-bg a:hover {
+    text-decoration: none; /* Optional: if you want to remove the underline from the link */
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    background-color: white/* This should be the same color as above to maintain consistency on hover */
+}
+
+.first-button {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 1em;
+    padding-left: 1em;
+    border-radius: 200px;
+    font-size: medium;
+    color: lightgray;
+    background-color: black;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+}
+
+.first-button:hover{
+    background-color: #ECA00D;
+    color: black;
+}
+
+.second-button {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 1em;
+    padding-left: 1em;
+    border-radius: 200px;
+    font-size: medium;
+    color: black;
+    background-color: #ECA00D;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.second-button:hover {
+    animation: bubble 0.5s ease-out;
+    color: white;
+}
+@keyframes bubble {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.sub-total{
+    display: flex;
+    align-items: center;
+}
+
+.cart-book-title{
+    font-family: 'Lexend', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,33 @@
+
+.confirmationView {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.confirmationView div{
+
+}
+/*ul {*/
+/*   display: flex;*/
+/*   flex-direction: column;*/
+/*   align-items: center;*/
+/*   justify-content: center;*/
+/*   text-align: left;*/
+/*}*/
+/*ul > li {*/
+/*   margin: 1em;*/
+/*}*/
+
+.customerInfo{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 150px;
+   width: 500px;
+   text-decoration: none;
+   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+   border: 2px solid black;
+   background-color: #ECA00D;
+}

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0');
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 1rem;
+    color: white;
+}
+
+.Logo-text{
+    font-size: large;
+    font-weight: bold;
+}
+.Logo-text1{
+    font-size: large;
+    font-weight: bold;
+    color: #ECA00D;
+}
+
+.logo-section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.search-bar, .icons-container, .header-dropdown{
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.search {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    border-radius: 28px;
+    background: white;
+    transition: box-shadow 0.25s;
+}
+
+.search:focus-within {
+    box-shadow: 0 0 2px rgba(0,0,0,0.75);
+}
+
+.search-input {
+    font-size: 16px;
+    color: #333;
+    margin-left: 14px;
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 200px;
+}
+
+.search-icon {
+    margin-left: 5px;
+    color: rgba(0,0,0,0.70);
+}
+
+.icons-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.cart-img, .cart-count {
+    color: white;
+    cursor: pointer;
+}
+
+.cart-img:hover {
+    color: #ECA00D;
+}
+
+.cart-img:active {
+    color: #ECA00D;
+}
+
+.cart-count {
+    background-color: #ECA00D;
+    border-radius: 50%;
+    padding: 0 5px;
+    font-weight: bold;
+    position: relative;
+    top: -22px;
+    right: 10px;
+}
+
+.homepage-name-div{
+    margin-left: -12px;
+}
+@media (max-width: 800px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .search-bar {
+        width: 100%;
+    }
+}
